@@ -320,7 +320,7 @@ background-color: var(--whiteColor);
             margin:  auto;
           display: flex; 
        justify-content:center;
-         height: 600px;
+      height: 100%;
      padding: 30px;
     }
 
@@ -469,7 +469,7 @@ overflow: hidden;
 } */
 .footer-containe{
     overflow: hidden;
-    height: 450px;
+    height: 650px;
   flex-direction: column; 
 }
 @media  only screen and  (min-width:576px ) and  (max-width:992px) {
