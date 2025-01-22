@@ -40,25 +40,24 @@ box-sizing: border-box;
 }
 
  .navbar{
-width:1140px;
+max-width:1158px;
 margin: 0 auto;
  }
 .navbar{
 justify-content: space-between;
 align-items: center;
-text-align: center;  
-
-
 }
 .navbar-link{
     display: flex;
     list-style: none;
 }
-.nav-item >a{
+.nav-item >a{ 
     text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .nav-item{
-   margin-right: 30px;  
+  margin-right: 40px;
 }
 
 .navbar-btn{
@@ -99,6 +98,7 @@ display: none;
 /* banner style */
 .banner-container{
   max-width:  1158.61px;
+  height:575px ;
     margin: 0 auto;
 
 
@@ -148,7 +148,6 @@ display: none;
 /* Standard */
 .Standard{
     padding-bottom: 30px;
-
     text-align: center;
     font-size:2.8rem ;
     font-weight: 700;
@@ -157,7 +156,7 @@ display: none;
   .details-item-container{
     max-width: 1160px;
     margin: 20px auto;
-    gap: 10px;
+    gap: 30px;
   }
   .details-item{
     max-width: 367.8px;
@@ -196,7 +195,6 @@ display: none;
  rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 .details-btn{
-
 background-color: white;
 padding: 20px 40px;
 color: var( --textColorthree) ;
@@ -272,7 +270,8 @@ background-color: var(--whiteColor);
     display: grid;
     grid-template-columns: repeat(2,301.61px);
     grid-template-rows:repeat(2,290.69px );
-    gap: 20px;
+ 
+    row-gap: 20px;
    justify-items: center;
 }
 .date-title-text {
@@ -364,6 +363,10 @@ display: none;
     padding: 40px;
     border: 2px solid var(--orangeColor);
    }
+   .navbar  >.menu {
+    display: block; 
+  
+ }
    .banner-container{
    max-width: 357px;
    height: 725px;
@@ -379,11 +382,11 @@ display: none;
     height: 252px;
    }
    .banner-title{
-font-size:1.8rem;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0%;
-text-align: center;
+    font-size:1.8rem;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+     text-align: center;
    }
    .banner-desription{
     font-size: 1.2rem ;
@@ -429,18 +432,17 @@ justify-content: center;
 }
 
 .item-container{
- grid-template-columns:repeat(2 ,190px);
+ grid-template-columns:repeat(2 ,200px);
 grid-template-rows: repeat(2 ,180px);
 justify-content: center;
-
 gap: 10px;
-
 padding: 0;
 }
 .story-img-item{
-    width:173.27px;
+    width:200.27px;
     height:179.59px;
-
+margin: 0;
+overflow: hidden;
 }
 .story-img-item >img{
     width: 100%;
