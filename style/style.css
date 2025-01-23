@@ -378,8 +378,7 @@ display: none;
     border: 2px solid var(--orangeColor);
    }
    .navbar  >.menu {
-    display: inline-block; 
-  padding-right: 6vmax;
+    display: block; 
   overflow: hidden;
  }
  .footer-container {
