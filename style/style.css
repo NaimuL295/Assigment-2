@@ -378,7 +378,8 @@ display: none;
    .navbar  >.menu {
     display: block; 
   overflow: hidden;
-  margin: 0 0;
+  margin: 0;
+  padding:0 ;
  }
  .footer-container {
     display: flex;
