@@ -40,6 +40,7 @@ box-sizing: border-box;
 }
 
  .navbar{
+    overflow: hidden;
 max-width:1158px;
 margin: 0 auto;
  }
@@ -378,7 +379,8 @@ display: none;
    }
    .navbar  >.menu {
     display: inline-block; 
-  padding-right: 8vmax;
+  padding-right: 6vmax;
+  overflow: hidden;
  }
  .footer-container {
     display: flex;
