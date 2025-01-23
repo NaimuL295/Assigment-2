@@ -199,6 +199,10 @@ color: var( --textColorthree) ;
 border:none;
 
 }
+.details-desription{
+    color: var(--darkColor);
+}
+
 .btn-one{
 color:var(--orangeColor) ;
 }
@@ -266,7 +270,6 @@ background-color: var(--whiteColor);
 }
 .date-title{
     padding: 10px;
-
 }
 .item-container{
     display: grid;
@@ -290,7 +293,6 @@ background-color: var(--whiteColor);
     /* padding: 20px; */
     /* border-radius:9.53px 9.53px 0px 0px; */
     border-radius: 10px 10px 10px 10px;
-
 }
 .story-img-item-one{
     display: none;
@@ -303,8 +305,6 @@ background-color: var(--whiteColor);
     border-radius:9.53px 9.53px 0px 0px;
     object-fit: contain;
     }
-
-
     .all-text{
         font-size:1rem ;
         padding: 10px 10px;
@@ -328,8 +328,6 @@ background-color: var(--whiteColor);
             margin-top: 60px;
             padding-bottom: 30px;
             text-align: center;
-     
-      
     }
     .footer{ 
          background-color: var(--textColorone );
@@ -366,7 +364,7 @@ background-color: var(--whiteColor);
     .footer-text-list{
         padding-right: 30px;
     }
- /*responsive */
+ /*responsive device*/
 @media  only screen and (max-width:576px) {
     .navbar-link,.nav-item, .navbar-btn {
 display: none;
@@ -439,7 +437,6 @@ height: 57.5px; */
 .icon{
 display: none;
 }
-
 .Our-Stories-container> .left-img-container{  
 display: none;
 
